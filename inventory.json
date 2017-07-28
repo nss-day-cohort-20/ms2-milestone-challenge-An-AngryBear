@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Versa",
+      "year": "2013",
+      "price": "8000",
+      "description": "Smallest, best value car on the lot. Great car, fits 20-25 clowns"
+    },
+    {
+      "make": "Ford",
+      "model": "Escort",
+      "year": "1997",
+      "price": "200",
+      "description": "If you buy me lunch, I might just give you this piece of- I mean, this wonderful automobile"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Lumina",
+      "year": "1999",
+      "price": "300",
+      "description": "This car has a nice rust coloration. There is a stain in the backseat that looks like blood but is definitely not."
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": "2012",
+      "price": "15000",
+      "description": "Great little ride that gets you from A to B efficiently."
+    }
+  ]
+}
