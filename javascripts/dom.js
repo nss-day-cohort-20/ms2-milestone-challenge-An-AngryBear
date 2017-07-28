@@ -48,7 +48,6 @@ var CarLot = (function (globalScopeCarLot) {
 				let deleteKey = findDescription.innerHTML.split(""),
 					lastIndex = deleteKey.length -1;
 				deleteKey = deleteKey.splice(0, lastIndex).join('');
-				console.log(deleteKey)
 				findDescription.innerHTML = deleteKey;
 			}
 		}

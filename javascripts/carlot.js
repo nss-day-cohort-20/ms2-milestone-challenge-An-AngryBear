@@ -9,12 +9,10 @@ var CarLot = (function (globalScopeCarLot) {
     load.open("GET", "inventory.json");
     load.send();
     load.addEventListener("error", function() {
-      console.log("error retrieving data");
     });
     load.addEventListener("load", function () {
       processInventory()
       callback(_car_inventory[0]);
-      console.log("in loadInventory, after load", _car_inventory);
     });
   }
 
@@ -24,7 +22,6 @@ var CarLot = (function (globalScopeCarLot) {
   }
 
   function getInventory() {
-    console.log(_car_inventory);
     return _car_inventory;
   }
 
